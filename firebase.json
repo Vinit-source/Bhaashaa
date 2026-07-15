@@ -6,23 +6,18 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "site": "bhaashaa",
     "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   },
   "auth": {
     "providers": {
       "googleSignIn": {
-        "oAuthBrandDisplayName": "Bolo -> Solla",
+        "oAuthBrandDisplayName": "Bhaashaa",
         "supportEmail": "vinitgore1234@gmail.com"
       }
     }
