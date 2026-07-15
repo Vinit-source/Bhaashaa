@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "request.auth != null && request.auth.uid == $uid",
+        ".write": "request.auth != null && request.auth.uid == $uid",
+        "sentences": {
+          "$sentenceId": {
+            ".read": "request.auth != null && request.auth.uid == $uid",
+            ".write": "request.auth != null && request.auth.uid == $uid"
+          }
+        },
+        "quizStats": {
+          "$statId": {
+            ".read": "request.auth != null && request.auth.uid == $uid",
+            ".write": "request.auth != null && request.auth.uid == $uid"
+          }
+        }
+      }
+    }
+  }
+}
