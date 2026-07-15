@@ -53,7 +53,7 @@ export default function SignIn({ onGuestSignIn }: { onGuestSignIn?: () => void }
         </div>
 
         <h1 className="text-3xl font-bold text-[#E5832E] mb-4">
-          Bhasha
+          Bhaashaa
         </h1>
         <p className="text-gray-400 font-medium text-sm md:text-base leading-relaxed mb-8 px-4">
           Learn the language you want - in your own way! ✨

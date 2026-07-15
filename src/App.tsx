@@ -33,7 +33,7 @@ function Navigation() {
             </NavLink>
             <div className="flex items-center space-x-2">
               <span className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
-                Bhasha {pair?.icon || '🗣️'}
+                Bhaashaa {pair?.icon || '🗣️'}
               </span>
               <span className="text-sm font-medium text-gray-500 hidden lg:inline">
                 Learn {pair?.targetLanguage || 'Language'} via {pair?.sourceLanguage1 || 'Source'}
@@ -147,9 +147,9 @@ export default function App() {
         </Routes>
         
         <footer className="fixed bottom-0 w-full bg-white border-t border-gray-200 py-2 px-4 text-xs text-gray-500 text-center flex flex-col md:flex-row items-center justify-center gap-1 z-50">
-          <span><span className="font-bold text-gray-700">ⓘ</span> Bhasha is a GenAI webapp, hence it can make mistakes. Please double check responses.</span>
+          <span><span className="font-bold text-gray-700">ⓘ</span> Bhaashaa is a GenAI webapp, hence it can make mistakes. Please double check responses.</span>
           <span className="hidden md:inline mx-2">|</span>
-          <span>&copy; 2026 Bhasha - Built by <a href="https://vivek-ai-web.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">VivekAI</a></span>
+          <span>&copy; 2026 Bhaashaa - Built by <a href="https://vivek-ai-web.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">VivekAI</a></span>
         </footer>
       </div>
     </BrowserRouter>

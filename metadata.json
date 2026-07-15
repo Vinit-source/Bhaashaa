@@ -1,6 +1,6 @@
 {
-  "name": "Bolo - Hindi Learner",
-  "description": "Learn spoken Hindi through Tamil or English with flashcards, progress tracking, and AI-generated sentences.",
+  "name": "Bhaashaa - Language Learner",
+  "description": "Learn spoken languages through English with flashcards, progress tracking, and AI-generated sentences.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
