@@ -32,8 +32,8 @@ function Navigation() {
               <ArrowLeft size={20} />
             </NavLink>
             <div className="flex items-center space-x-2">
-              <span className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
-                Bhaashaa {pair?.icon || '🗣️'}
+              <span className="text-3xl pt-1 bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent" style={{ fontFamily: "'Yatra One', cursive" }}>
+                bhaashaa {pair?.icon || '🗣️'}
               </span>
               <span className="text-sm font-medium text-gray-500 hidden lg:inline">
                 Learn {pair?.targetLanguage || 'Language'} via {pair?.sourceLanguage1 || 'Source'}

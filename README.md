@@ -1,12 +1,12 @@
-# Bolo - Learn Hindi via Tamil/English 🗣️
+# Bhaashaa - Learn any language using AI 🗣️
 
-Bolo is a comprehensive flashcard and vocabulary learning application tailored for individuals looking to learn spoken Hindi through English or Tamil. Built with a modern tech stack (React, Vite, Tailwind CSS, Firebase), Bolo uses AI-generated context-aware sentences to help users learn language practically.
+Bhaashaa is a comprehensive flashcard and vocabulary learning application tailored for individuals looking to learn any language (especially Indian languages) through a language they already know. Built with a modern tech stack (React, Vite, Tailwind CSS, Firebase), Bhaashaa uses AI-generated context-aware sentences to help users learn languages practically.
 
 ## Features
 
 - **Spaced Repetition Flashcards**: Review words through our flashcard interface to master your vocabulary. Mastered words go to a dedicated 'Learned' section.
-- **AI Sentence Generator**: Dynamically generate new Hindi sentences (with transliteration and translations) on varied everyday topics powered by Google's Gemini API. 
-- **AI Translation**: Translate any Tamil or English sentence into spoken Hindi to build your customized vocabulary. Provides word-by-word meaning breakdown.
+- **AI Sentence Generator**: Dynamically generate new sentences (with transliteration and translations) on varied everyday topics powered by Google's Gemini API. 
+- **AI Translation**: Translate any sentence into your target language to build your customized vocabulary. Provides word-by-word meaning breakdown.
 - **Quiz System**: Test your knowledge and track your improvement with comprehensive quizzes generated from your vocabulary.
 - **Cloud Syncing**: Seamlessly save your progress, flashcards, and quiz statistics to Firebase Firestore, accessible across all your devices.
 - **Zero Duplicate Management**: Ensure your vocabulary stays clean with automated duplicate checks whenever adding new sentences.
